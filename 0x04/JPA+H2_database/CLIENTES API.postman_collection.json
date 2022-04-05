@@ -2,7 +2,7 @@
 	"info": {
 		"_postman_id": "447a1706-3c83-4718-955d-89a0a77f6083",
 		"name": "CLIENTES API",
-		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
 	},
 	"item": [
 		{
@@ -19,18 +19,7 @@
 						}
 					}
 				},
-				"url": {
-					"raw": "http://localhost:8081/api-jpa-h2/addClient",
-					"protocol": "http",
-					"host": [
-						"localhost"
-					],
-					"port": "8081",
-					"path": [
-						"api-jpa-h2",
-						"addClient"
-					]
-				}
+				"url": "http://localhost:8081/api-jpa-h2/addClient"
 			},
 			"response": []
 		},
@@ -39,18 +28,7 @@
 			"request": {
 				"method": "GET",
 				"header": [],
-				"url": {
-					"raw": "http://localhost:8081/api-jpa-h2/findAllClients",
-					"protocol": "http",
-					"host": [
-						"localhost"
-					],
-					"port": "8081",
-					"path": [
-						"api-jpa-h2",
-						"findAllClients"
-					]
-				}
+				"url": "http://localhost:8081/api-jpa-h2/findAllClients"
 			},
 			"response": []
 		},
@@ -59,19 +37,7 @@
 			"request": {
 				"method": "GET",
 				"header": [],
-				"url": {
-					"raw": "http://localhost:8081/api-jpa-h2/findClientById/",
-					"protocol": "http",
-					"host": [
-						"localhost"
-					],
-					"port": "8081",
-					"path": [
-						"api-jpa-h2",
-						"findClientById",
-						""
-					]
-				}
+				"url": "http://localhost:8081/api-jpa-h2/findClientById/"
 			},
 			"response": []
 		},
@@ -80,19 +46,7 @@
 			"request": {
 				"method": "DELETE",
 				"header": [],
-				"url": {
-					"raw": "http://localhost:8081/api-jpa-h2/removeClientById/1",
-					"protocol": "http",
-					"host": [
-						"localhost"
-					],
-					"port": "8081",
-					"path": [
-						"api-jpa-h2",
-						"removeClientById",
-						"1"
-					]
-				}
+				"url": "http://localhost:8081/api-jpa-h2/removeClientById/1"
 			},
 			"response": []
 		},
@@ -101,19 +55,7 @@
 			"request": {
 				"method": "PUT",
 				"header": [],
-				"url": {
-					"raw": "http://localhost:8081/api-jpa-h2/updateClientById/",
-					"protocol": "http",
-					"host": [
-						"localhost"
-					],
-					"port": "8081",
-					"path": [
-						"api-jpa-h2",
-						"updateClientById",
-						""
-					]
-				}
+				"url": "http://localhost:8081/api-jpa-h2/updateClientById/"
 			},
 			"response": []
 		}
